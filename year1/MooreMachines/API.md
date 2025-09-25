@@ -2,7 +2,7 @@
 
 ## Types
 - `typedef struct moore moore_t;`\
-  represents a single Moore machine:
+  represents a single Moore machine.
 - `typedef void (*transition_function_t)(uint64_t *next_state, uint64_t const *input, uint64_t const *state, size_t n, size_t s);`\
    Transition function: computes the next state based on the current state and input bits.
   - `next_state` - array to store the next state
