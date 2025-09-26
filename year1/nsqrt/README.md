@@ -16,7 +16,7 @@ g++ -z noexecstack -o nsqrt_example nsqrt_example.o nsqrt.o -lgmp
 ```
 ## Used Algorithm
 We calculate the result digit-by-digit. Let  
-$$Q_j = \sum_{i=1}^j q_i \cdot 2^{n-i}, \quad q_i \in \{ 0,1 \} ,$$  
+$$Q_j = \sum_{i=1}^j q_i \cdot 2^{n-i}, \quad q_i \in \lbrace 0,1 \rbrace ,$$  
 be the result after $j$ iterations, and $R_j$ the remainder after $j$ iterations. We assume $Q_0 = 0$ and $R_0 = X$.  
 
 In iteration number $j$ we determine the $q_j$ th bit of the result. Let  
