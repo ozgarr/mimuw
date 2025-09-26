@@ -5,7 +5,7 @@ A x86 assembly implementation of a square root function, made to be called in C/
  `Q` and `X` are pointers to binary representations of numbers _Q_ and _X_. Numbers are written in binary, little endian, 64 bits in each uint64_t. `n` contains
  the number of bits and is a number divisible by 64 between 64 and 256000.
 ## Features
-The function calculates nearest whole square roots blazingly fast, it can calculate numbers up to 256000 bits of length in binary. The code section of the asm file is under 200 bytes.
+The function calculates nearest whole square roots blazingly fast, it can calculate numbers up to 256000 bits of length in binary. The code section of the object file is under 200 bytes.
 ## Build
 You can compile it with `nasm -f elf64 -w+all -w+error -o nsqrt.o nsqrt.asm` then link it with your program.
 ## Usage
