@@ -14,7 +14,7 @@ For an example of usage you can compile and link the provided example program
 g++ -c -Wall -Wextra -std=c++20 -O2 -o nsqrt_example.o nsqrt_example.cpp
 g++ -z noexecstack -o nsqrt_example nsqrt_example.o nsqrt.o -lgmp
 ```
-## Used Algorithm
+## Used algorithm
 We calculate the result digit-by-digit. Let  
 $$Q_j = \sum_{i=1}^j q_i \cdot 2^{n-i}, \quad q_i \in \lbrace 0,1 \rbrace ,$$  
 be the result after $j$ iterations, and $R_j$ the remainder after $j$ iterations. We assume $Q_0 = 0$ and $R_0 = X$.  
