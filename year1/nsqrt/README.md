@@ -1,5 +1,5 @@
 # nsqrt
-A x86 assembly implementation of a square root function, made to be called in C/CPP.
+A x86 assembly implementation of a square root function, made to be called in C/C++.
 ## Function declaration
 `void nsqrt(uint64_t *Q, uint64_t *X, unsigned n);`\
  `Q` and `X` are pointers to binary representations of numbers _Q_ and _X_. Numbers are written in binary, little endian, 64 bits in each uint64_t. `n` contains
