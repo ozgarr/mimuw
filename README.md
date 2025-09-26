@@ -16,5 +16,5 @@ A x86 assembly program that allows the user to quickly reverse the contents of a
 [freverse](mimuw/year1/freverse)
 
 ### nsqrt
-A x86 assembly function used with C/C++ that quickly calculates the nearest whole square root of very large numbers (up to 256000 bits)\
+A x86 assembly function used with C/C++ that quickly calculates the nearest whole square root of very large numbers (up to 256000 bits).\
 [nsqrt](mimuw/year1/nsqrt)
