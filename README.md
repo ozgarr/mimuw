@@ -4,7 +4,7 @@ This repo contains some of my university assignments.
 ## Year One
 
 ### Moore Machines
-A dynamic C library that allows the user to simulate synchronous systems via moore machines. Features include freely connecting output and inputs bits of machines and fully memory-safe funcionality.\
+A dynamic C library that allows the user to simulate synchronous systems via moore machines. Features include freely connecting output and inputs bits of machines and a fully memory-safe functionality.\
 [Moore Machines](mimuw/year1/MooreMachines)
 
 ### Lottery
